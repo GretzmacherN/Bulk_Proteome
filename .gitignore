@@ -1,0 +1,28 @@
+# Rohdaten (viel zu groß für Git, extern weitergeben statt versionieren)
+rnaseq_work/
+results/
+salmon_index/
+*.fastq
+*.fastq.gz
+*.sra
+
+# Excel-Rohdaten der Supplementary-Tabellen (auch groß, extern weitergeben)
+data/*.xlsx
+data/*.csv
+!data/sample_manifest.csv
+!data/lehmann.csv
+
+# R-spezifisch (aus dem renv-Setup ganz am Anfang)
+renv/library/
+.Rproj.user/
+*.Rhistory
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+._*
+
+# Logs
+*.log
