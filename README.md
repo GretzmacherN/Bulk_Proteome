@@ -3,9 +3,11 @@
 ## Status (Stand: 12.09.2017)
 
 ## Offene Aufgabe: RNA-seq-Rohdaten-Download
-Ziel: Prüfen, ob ROR1 einen ungewöhnlich großen RNA-Protein-Dropout zeigt
+Ziel: Korrelationsanalyse zwischen ROR1/EGFR-Koexpression und 1) EMT ()definiert durch MSigDB und 2) Brust-Krebs-Stamm-Zell Faktor (definiert durch Genset)
+Offenes Ziel:
+Mit Lee et al prüfen, ob ROR1 einen ungewöhnlich großen RNA-Protein-Dropout zeigt
 (verglichen mit anderen Genen), unter Nutzung der Rohdaten von
-NCBI BioProject **PRJNA1422844** (RNA-seq der TNBC-Patientenkohorte).
+NCBI BioProject **PRJNA1422844** (RNA-seq der TNBC-Patientenkohorte) sowie Proteome.
 
 ### Pipeline (Skripte in diesem Repo)
 - 'Three-Proteome.ipynb' - holt Proteome Tabellen von drei Papern:
